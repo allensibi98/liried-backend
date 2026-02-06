@@ -29,11 +29,9 @@ CORS_ORIGIN=http://localhost:3000
 
 # 4. Setup database
 mysql -u root -p < database.sql
-# Or without password: mysql -u root < database.sql
 
 # 5. Start server
 npm start
-```
 
 Server runs on **http://localhost:5000**
 
@@ -41,11 +39,10 @@ Server runs on **http://localhost:5000**
 - Username: `admin`
 - Password: `admin123`
 
-## 📝 Scripts
 
 ```bash
-npm start     # Start server
-npm run dev   # Start with auto-reload
+npm start 
+npm run dev 
 ```
 
 ## 🔌 API Endpoints
